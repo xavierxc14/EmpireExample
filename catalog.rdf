@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:ns0="http://vocab.org/frbr/core#"
+         xmlns:gr="http://purl.org/goodrelations/v1#">
+
+  <rdf:Description rdf:about="urn:x-domain:oreilly.com:product:9780596516499.IP">
+    <rdf:type rdf:resource="http://vocab.org/frbr/core#Expression"/>
+    <dc:creator>
+      <foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:3343">
+        <foaf:homepage rdf:resource="http://www.oreillynet.com/pub/au/3614"/>
+        <foaf:name xml:lang="en">Steven Bird</foaf:name>
+      </foaf:Person>
+    </dc:creator>
+
+    <dc:creator>
+      <foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:3501">
+        <foaf:homepage rdf:resource="http://www.oreillynet.com/pub/au/3615"/>
+        <foaf:name xml:lang="en">Ewan Klein</foaf:name>
+      </foaf:Person>
+    </dc:creator>
+
+    <dc:creator>
+      <foaf:Person rdf:about="urn:x-domain:oreilly.com:agent:pdb:3502">
+        <foaf:homepage rdf:resource="http://www.oreillynet.com/pub/au/3616"/>
+        <foaf:name xml:lang="en">Edward Loper</foaf:name>
+      </foaf:Person>
+    </dc:creator>
+
+    <dc:publisher xml:lang="en">O'Reilly Media</dc:publisher>
+    <dc:title xml:lang="en">Natural Language Processing with Python</dc:title>
+    <ns0:embodiment rdf:resource="urn:x-domain:oreilly.com:product:9780596516499.BOOK"/>
+    <ns0:embodiment rdf:resource="urn:x-domain:oreilly.com:product:9780596803346.SAF"/>
+    <ns0:embodiment rdf:resource="urn:x-domain:oreilly.com:product:9780596803391.EBOOK"/>
+  </rdf:Description>
+
+  <gr:Offering rdf:about="http://customer.wileyeurope.com/CGI-BIN/lansaweb?procfun+shopcart+shcfn01+funcparms+parmisbn(a0130):9780596516499+parmqty(p0050):1+parmurl(l0560):http://oreilly.com/store/">
+    <gr:includesObject>
+      <gr:TypeAndQuantityNode>
+        <gr:ammountOfThisGood rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</gr:ammountOfThisGood>
+        <gr:hasPriceSpecification>
+          <gr:UnitPriceSpecification>
+            <gr:hasCurrency xml:lang="en">GBP</gr:hasCurrency>
+            <gr:hasCurrencyValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">34.50</gr:hasCurrencyValue>
+          </gr:UnitPriceSpecification>
+        </gr:hasPriceSpecification>
+
+        <gr:typeOfGood rdf:resource="urn:x-domain:oreilly.com:product:9780596516499.BOOK"/>
+      </gr:TypeAndQuantityNode>
+    </gr:includesObject>
+
+  </gr:Offering>
+
+  <gr:Offering rdf:about="http://my.safaribooksonline.com/9780596803346">
+    <gr:includesObject>
+      <gr:TypeAndQuantityNode>
+        <gr:ammountOfThisGood rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</gr:ammountOfThisGood>
+        <gr:typeOfGood rdf:resource="urn:x-domain:oreilly.com:product:9780596803346.SAF"/>
+      </gr:TypeAndQuantityNode>
+    </gr:includesObject>
+
+  </gr:Offering>
+
+  <gr:Offering rdf:about="https://epoch.oreilly.com/shop/cart.orm?p=BUNDLE&amp;prod=9780596516499.BOOK&amp;prod=9780596803391.EBOOK&amp;bundle=1&amp;retUrl=http%3A%252F%252Foreilly.com%252Fstore%252F">
+    <gr:includesObject>
+      <gr:TypeAndQuantityNode>
+        <gr:ammountOfThisGood rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</gr:ammountOfThisGood>
+        <gr:includesObject>
+          <gr:TypeAndQuantityNode>
+            <gr:ammountOfThisGood rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</gr:ammountOfThisGood>
+            <gr:hasPriceSpecification>
+              <gr:UnitPriceSpecification>
+                <gr:hasCurrency xml:lang="en">None</gr:hasCurrency>
+                <gr:hasCurrencyValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">49.49</gr:hasCurrencyValue>
+              </gr:UnitPriceSpecification>
+            </gr:hasPriceSpecification>
+
+            <gr:typeOfGood rdf:resource="urn:x-domain:oreilly.com:product:9780596803391.EBOOK"/>
+          </gr:TypeAndQuantityNode>
+        </gr:includesObject>
+
+        <gr:typeOfGood rdf:resource="urn:x-domain:oreilly.com:product:9780596516499.BOOK"/>
+      </gr:TypeAndQuantityNode>
+    </gr:includesObject>
+
+  </gr:Offering>
+
+  <gr:Offering rdf:about="https://epoch.oreilly.com/shop/cart.orm?prod=9780596516499.BOOK">
+    <gr:includesObject>
+      <gr:TypeAndQuantityNode>
+        <gr:ammountOfThisGood rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</gr:ammountOfThisGood>
+        <gr:hasPriceSpecification>
+          <gr:UnitPriceSpecification>
+            <gr:hasCurrency xml:lang="en">USD</gr:hasCurrency>
+            <gr:hasCurrencyValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">44.99</gr:hasCurrencyValue>
+          </gr:UnitPriceSpecification>
+        </gr:hasPriceSpecification>
+
+        <gr:typeOfGood rdf:resource="urn:x-domain:oreilly.com:product:9780596516499.BOOK"/>
+      </gr:TypeAndQuantityNode>
+    </gr:includesObject>
+
+  </gr:Offering>
+
+  <gr:Offering rdf:about="https://epoch.oreilly.com/shop/cart.orm?prod=9780596803391.EBOOK">
+    <gr:includesObject>
+      <gr:TypeAndQuantityNode>
+        <gr:ammountOfThisGood rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1</gr:ammountOfThisGood>
+        <gr:hasPriceSpecification>
+          <gr:UnitPriceSpecification>
+            <gr:hasCurrency xml:lang="en">USD</gr:hasCurrency>
+            <gr:hasCurrencyValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.99</gr:hasCurrencyValue>
+          </gr:UnitPriceSpecification>
+        </gr:hasPriceSpecification>
+
+        <gr:typeOfGood rdf:resource="urn:x-domain:oreilly.com:product:9780596803391.EBOOK"/>
+      </gr:TypeAndQuantityNode>
+    </gr:includesObject>
+
+  </gr:Offering>
+
+  <ns0:Manifestation rdf:about="urn:x-domain:oreilly.com:product:9780596803346.SAF">
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/SAF"/>
+  </ns0:Manifestation>
+
+  <ns0:Manifestation rdf:about="urn:x-domain:oreilly.com:product:9780596803391.EBOOK">
+    <dc:identifier rdf:resource="urn:isbn:9780596803391"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/EBOOK"/>
+  </ns0:Manifestation>
+
+  <ns0:Manifestation rdf:about="urn:x-domain:oreilly.com:product:9780596516499.BOOK">
+    <dc:extent xml:lang="en">512</dc:extent>
+    <dc:identifier rdf:resource="urn:isbn:9780596516499"/>
+    <dc:type rdf:resource="http://purl.oreilly.com/product-types/BOOK"/>
+  </ns0:Manifestation>
+
+</rdf:RDF>
